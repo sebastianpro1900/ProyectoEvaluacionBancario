@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sistemaapi:
+    image: ${DOCKER_REGISTRY-}sistemaapi
+    build:
+      context: .
+      dockerfile: SistemaAPI/Dockerfile
