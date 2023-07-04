@@ -1,0 +1,15 @@
+﻿using SistemaAPI.Models.Domain;
+
+namespace SistemaAPI.Models.DTO
+{
+    public class AddClienteRequestDto
+    {
+        public string contrasena { get; set; }
+        public string estado { get; set; }
+        public Guid PersonaId { get; set; }
+
+        // Propiedades de Navegacion
+        //public Persona Persona { get; set; }
+
+    }
+}
